@@ -1,0 +1,128 @@
+.navbar
+    &-mb
+        display: none
+    &-block
+        margin: auto
+        padding-top: 50px
+        display: flex
+        justify-content: space-between
+        &__logo
+            font-family: 'Gotu-Regular'
+            font-size: 20px
+            font-weight: 400
+            text-decoration: none
+            color: #868686
+            letter-spacing: 0.56px
+            text-align: center
+    &-AB
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__consultation
+            color: #868686
+            font-family: 'NotoSans-Regular'
+            font-size: 14px
+            font-weight: 400
+            text-decoration: none
+            margin-right: 89px
+            letter-spacing: 1.12px
+            padding-bottom: 5px
+            border-bottom: 1px solid #868686
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+                border-bottom: 1px solid #e57c80
+
+    &-BV1
+        display: flex
+        flex-direction: column
+        &__tell
+            font-family: 'Gotu-Regular'
+            font-weight: 500
+            font-size: 21px
+            letter-spacing: 1.05px
+            color: #ffffff
+            text-decoration: none
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+    &-nt3
+        display: flex
+        justify-content: flex-end
+        margin-top: 5px
+        &__telegram
+            font-family: 'NotoSans-Regular'
+            color: #868686
+            text-decoration: none
+            font-size: 14px
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+        &__h55i
+            font-family: 'NotoSans-Regular'
+            color: #868686
+            font-size: 14px
+        &__WhatsApp
+            font-family: 'NotoSans-Regular'
+            color: #868686
+            text-decoration: none
+            font-size: 14px
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+
+
+
+
+
+
+@media( max-width: 1340px)
+    .container
+        max-width: 1023px
+        width: 95%
+        margin: auto
+
+@media ( max-width: 1019px )
+    .container
+        max-width: 750px
+        width: 98% 
+        margin: auto
+    .navbar
+        &-mb 
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &__WhatsApp
+                text-decoration: none
+                
+            &__telegram
+                text-decoration: none
+                margin-left: 20px
+            &__phone
+                display: block
+                margin-left: 60px
+                text-decoration: none
+                width: 40px
+                height: 40px
+                border-radius: 50px
+                background-color: #373535
+                position: relative
+            &__phoneT
+                position: absolute
+                top: 0
+                right: 0
+                left: 0
+                bottom: 0
+                margin: auto
+                
+
+        &-AB
+            display: none
+            &
+                
+    
+@media (max-width: 740px)
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto

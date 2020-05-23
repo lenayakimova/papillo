@@ -1,0 +1,53 @@
+.footer
+    margin-top: 40px
+    margin-bottom: 40px
+    &-block
+        margin: auto
+        padding-top: 30px
+        display: flex
+        justify-content: space-around
+        color: #868686
+        &__logo
+            margin: auto
+            display: block
+            font-family: 'Gotu-Regular'
+            margin-bottom: 10px
+        &__vt
+            margin: auto
+            display: block
+            margin-bottom: 10px
+        &__rt
+            margin: auto
+            margin-bottom: 10px
+            display: block
+            text-decoration: none
+            color: #868686
+            border-bottom: 1px solid #868686
+            padding-bottom: 1px
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+                border-bottom: 1px solid #e57c80 
+        
+
+@media ( max-width: 1340px )
+    .container
+        max-width: 1030px
+        width: 98%
+        margin: auto
+@media ( max-width: 1019px )  
+    .container
+        max-width: 750px
+        width: 98% 
+        margin: auto      
+    .footer
+        &-block
+            font-size: 13px
+            flex-direction: column
+@media (max-width: 740px)
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto       
+            
+                

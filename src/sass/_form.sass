@@ -1,0 +1,167 @@
+.form
+    &-title
+        margin-top: 170px
+        text-align: center
+        color: #ffffff
+        font-family: 'MPLUS1p-Regular'
+        font-size: 48px
+        text-transform: uppercase
+        letter-spacing: 4.8px
+        margin-bottom: 65px
+    &-block
+        display: flex
+        justify-content: center
+        margin-bottom: 90px
+    &-blockA
+        width: 680px
+        height: 350px
+        border: 1px solid #353535  
+    &-blockB
+        width: 478px
+        height: 178px
+        padding: 86px 92px 86px 91px
+
+    &-blockC
+        display: flex
+        justify-content: space-between
+        
+    &-io
+        display: flex
+        flex-direction: column
+        margin-right: 86px
+        &__input
+            width: 200px
+            border: none
+            background-color: #161616
+            border-bottom: 1px solid #353535
+            outline: none
+            color: #ffffff
+            padding-left: 38px
+            padding-bottom: 12px
+            padding-right: 0
+            font-size: 14px
+            margin-bottom: 62px
+        &__button
+            padding: 24px 36px
+            width: 151px
+            background-color: #cd4147
+            border-radius: 12px
+            background-image: linear-gradient(to top, #cd4147 0%, #fbb0b3 100%)
+            border: none
+            font-family: 'NotoSans-Regular'
+            color: #ffffff
+            font-weight: 400 
+            font-size: 13px
+            outline: none
+            &:hover
+                transition: 0.8s 
+                transition: 1s
+                background: #996c6c
+    &-op
+        display: flex
+        color: #353535
+        &__kp
+            width: 10px
+            height: 10px
+            border: 1px solid #353535
+            border-radius: 50px
+            margin-right: 11px
+        &__text
+            display: block
+            font-family: 'NotoSans-Regular'
+            font-size: 12px
+        &__hy
+            color: #353535
+            font-family: 'NotoSans-Regular'
+            font-size: 12px
+            letter-spacing: 0.24px
+            text-decoration: none
+            padding-bottom: 3px
+            border-bottom: 1px solid #353535
+            &:hover
+                transition: 0.3s
+                color: #e57c80
+                border-bottom: 1px solid #e57c80
+
+            
+    
+            
+.ut
+    background-image: url(/img/block6/ut.png)
+    background-position-x: left
+    background-repeat: no-repeat
+.uy
+    background-image: url(/img/block6/uy.png)
+    background-position-x: left
+    background-repeat: no-repeat
+.um
+    background-image: url(/img/block6/um.png)
+    background-position-x: left
+    background-repeat: no-repeat
+
+
+
+@media ( max-width: 1340px )
+    .container
+        max-width: 1030px
+        width: 98%
+        margin: auto
+
+@media ( max-width: 1019px )
+    .container
+        max-width: 600px
+        width: 98% 
+        margin: auto    
+    .form
+        &-title
+            margin-top: 90px
+            text-align: center
+            font-size: 28px
+            margin-bottom: 42px
+            line-height: 45px
+        &-blockC
+            margin: auto
+            flex-direction: column
+        &-blockA
+            margin: auto
+            width: 300px
+            height: 470px
+        &-blockB
+            padding: 59px 26px 
+            margin: auto
+            width: 220px
+            height: 300px
+        &-io
+            margin: auto
+            &__input
+                width: 160px
+                margin-bottom: 40px
+            &__button  
+                margin: auto
+                margin-bottom: 24px
+        &-op
+            margin: auto
+            &__text
+                display: block
+                margin: auto
+                width: 280px
+                line-height: 17px
+            &__kp
+                display: none
+            &__hy
+                padding-bottom: 1px
+
+
+@media (max-width: 740px)
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto
+    .form
+        &-title
+            margin-top: 90px
+            text-align: center
+            font-size: 28px
+            margin-bottom: 42px
+            line-height: 45px    
+            width: 320px

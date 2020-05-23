@@ -1,0 +1,128 @@
+.cycle
+    margin-top: 170px
+    &-title
+        text-align: center
+        color: #ffffff
+        font-family: 'MPLUS1p-Regular'
+        font-size: 48px
+        text-transform: uppercase
+        letter-spacing: 4.8px
+    &-block
+        margin-top: 83px
+    &-to
+        display: flex
+        justify-content: space-around
+    &-toD
+        display: flex
+        justify-content: space-around
+        
+    &-number
+        width: 46px
+        height: 46px
+        border: 1px solid #c3c3c3
+        border-radius: 100%
+        position: relative
+        margin-right: 21px
+        
+    &-toA
+        display: flex
+        align-items: center
+        margin-bottom: 70px
+        &__number
+            position: absolute
+            top: 10px
+            left: 0
+            right: 0
+            bottom: 0
+            text-align: center
+            color: #c3c3c3
+            font-family: 'Gotu-Regular'
+            font-size: 24px
+            letter-spacing: 0.96px
+        &__text
+            color: #868686
+            font-size: 16px
+            letter-spacing: 1.28px
+            width: 270px
+        &__textC
+            color: #868686
+            font-size: 16px
+            letter-spacing: 1.28px
+            width: 200px
+
+@media ( max-width: 1340px )
+    .container
+        max-width: 1030px
+        width: 98%
+        margin: auto
+
+@media ( max-width: 1019px )
+    .container
+        max-width: 600px
+        width: 98% 
+        margin: auto
+    .cycle
+        margin-top: 190px
+        &-title
+            margin: auto
+            font-size: 30px
+            text-align: left
+            width: 550px
+            padding: 0
+            line-height: 40px
+        &-to
+            margin: auto
+            width: 350px
+            flex-direction: column
+        &-toD
+            margin: auto
+            width: 350px
+            flex-direction: column
+        &-toA
+            margin: auto
+            width: 350px
+            margin-bottom: 40px
+            &__text
+                font-size: 14px
+                line-height: 20px
+            &__textC
+                font-size: 13px
+                line-height: 20px
+    .t
+        display: none
+            
+@media (max-width: 740px)
+    .container
+        max-width: 322px
+        width: 95%
+        margin: auto
+    .cycle
+        margin-top: 90px
+        &-title
+            margin: auto
+            font-size: 28px
+            text-align: left
+            width: 310px
+            padding: 0
+            line-height: 40px
+        &-to
+            width: 310px
+            margin: auto
+            flex-direction: column
+        &-toD
+            width: 310px
+            margin: auto
+            flex-direction: column
+        &-toA
+            margin: auto
+            width: 310px
+            margin-bottom: 40px
+            &__text
+                width: 250px
+                font-size: 13px
+                line-height: 20px
+            &__textC
+                font-size: 13px
+                line-height: 20px
+    .t
+        display: none

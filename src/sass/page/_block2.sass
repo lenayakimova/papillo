@@ -1,0 +1,114 @@
+.caseheader
+    &-blockA
+        display: flex
+        justify-content: center
+        margin-top: 78px
+    &-blockB
+        display: flex
+        align-items: center
+        width: 360px
+        height: 81px
+        border-top: 1px solid #262626
+        border-right: 1px solid #262626
+        &__text
+            display: block
+            font-family: 'MPLUS1p-Regular'
+            font-size: 28px
+            letter-spacing: 2.8px
+            color: #ffffff
+        &__landing
+            padding: 0
+            color: #868686
+            font-size: 14px
+            font-weight: 400
+            letter-spacing: 1.12px
+            margin-left: 40px
+    &-blockC
+        display: flex
+        justify-content: left
+        height: 588px
+        &__text
+            width: 200px
+            height: 10px
+            display: block
+            font-size: 90px
+            font-family: 'Gotu-Regular'
+            letter-spacing: 3.67px
+            text-transform: uppercase
+            color: #2b2b2b
+            transform: rotate(-90deg)
+            margin-top: 400px
+            margin-right: 50px
+
+
+@media ( max-width: 1340px )
+    .caseheader
+        &-blockA
+            margin: auto
+            width: 95%
+        &-blockB 
+            margin: auto
+            margin-top: 90px
+            &__text
+            &__landing
+        &-blockC
+            margin: auto
+            width: 95%
+            margin: auto
+            &__text
+                display: none
+
+@media ( max-width: 1019px )
+    .caseheader
+        &-blockA
+            margin: auto
+            width: 95%
+        &-blockB 
+            margin: auto
+            margin-top: 90px
+            border: none
+            border-top: 1px solid#262626
+            padding-left: 45px
+            
+        &-blockC
+            margin: auto
+            width: 95%
+            height: 400px
+            &__text
+                display: none
+
+@media (max-width: 740px)
+    .caseheader
+        &-blockA
+            margin: auto
+            width: 95%
+        &-blockB 
+            width: 300px
+            margin: auto
+            margin-top: 90px
+            border: none
+            border-top: 1px solid#262626
+            flex-direction: column
+            padding: 0
+            padding-top: 20px
+            &__text
+                text-align: center
+                display: block
+                font-family: 'MPLUS1p-Regular'
+                font-size: 28px
+                letter-spacing: 2.8px
+                color: #ffffff
+            &__landing
+                padding: 0
+                color: #868686
+                font-size: 14px
+                font-weight: 400
+                letter-spacing: 1.12px
+                margin-left: 0
+                display: block
+        &-blockC
+            margin: auto
+            width: 95%
+            height: 300px
+            &__text
+                display: none
